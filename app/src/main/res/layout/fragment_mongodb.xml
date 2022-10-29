@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_mongodb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp" />
+
+    <TextView
+        android:id="@+id/titulomongodb"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="MongoDB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infomongodb"
+        android:layout_width="391dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="sans-serif"
+        android:text="MongoDB es una base de datos NoSQL orientada a documentos. Se diferencia de las bases de datos relacionales por su flexibilidad y rendimiento.
+A diferencia de una base de datos relacional SQL tradicional, MongoDB no se basa en tablas y columnas. Los datos se almacenan como colecciones y documentos.
+Los documentos son pares value/key que sirven como unidad básica de datos. Las colecciones contienen conjuntos de documentos y funciones. Son el equivalente a las tablas en las bases de datos relacionales clásicas."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql2"
+        android:layout_width="365dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="276dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Principales sentencias de MONGODB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql3"
+        android:layout_width="394dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="376dp"
+        android:fontFamily="sans-serif"
+        android:text="una consulta a todos los registros de la tabla empleados.
+                        de la siguiente manera la consulta en MongoDB se haría a través de find(). Dentro de los símbolos {} deberemos especificar los filtros. La estructura genérica sería:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulomongodbsentencia"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Sentencia de consulta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="235dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="484dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="db.coleccion.find( { filtro } )"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "339947881937",
+    "project_id": "aplicacion-buenas-practicas",
+    "storage_bucket": "aplicacion-buenas-practicas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339947881937:android:a773649cd51447584e4cf0",
+        "android_client_info": {
+          "package_name": "com.myapdb.myapdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339947881937-qoh89gkqccdj6l3ldfq3m9craovfunqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4eyupWA5DmspczG4sSQ2e2N8cReNslGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339947881937-qoh89gkqccdj6l3ldfq3m9craovfunqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

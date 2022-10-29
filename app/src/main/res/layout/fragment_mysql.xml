@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_mysql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:id="@+id/titulomysql"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="MySQL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql"
+        android:layout_width="380dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="sans-serif"
+        android:text="MySQL es el sistema de gestión de bases de datos relacional más extendido en la actualidad al estar basada en código abierto. Desarrollado originalmente por MySQL AB, fue adquirida por Sun MicroSystems en 2008 y esta su vez comprada por Oracle Corporation en 2010, la cual ya era dueña de un motor propio InnoDB para MySQL."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql2"
+        android:layout_width="365dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Principales sentencias de MySQL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql3"
+        android:layout_width="392dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="268dp"
+        android:fontFamily="sans-serif"
+        android:text="SELECT es usada para consultar datos.
+            DISTINCT Sirve para eliminar los duplicados de las consultas de datos."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql4"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="sans-serif"
+        android:text="WHERE Es usada incluir las condiciones de los datos que queremos consultar.
+AND y OR es usada para incluir 2 o más condiciones a una consulta."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql5"
+        android:layout_width="361dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="sans-serif"
+        android:text="ORDER BY Es usada para ordenar los resultados de una consulta.
+ INSERT Es usada para insertar datos."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql6"
+        android:layout_width="361dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="496dp"
+        android:fontFamily="sans-serif"
+        android:text="Por ejemplo y para mostrar cómo funciona su sintaxis lo mejor es ver un ejemplo con SELECT. Es sin duda el comando más versátil del lenguaje SQL."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infosql7"
+        android:layout_width="361dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="576dp"
+        android:fontFamily="sans-serif"
+        android:text="SELECT *
+FROM Nombre_Tabla_Vista
+WHERE Condiciones
+ORDER BY ListaColumnas [ ASC / DESC ]
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

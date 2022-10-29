@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.myapdb.myapdb.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_SQLServer"
+        android:name="com.myapdb.myapdb.ui.sqlServer.SQLServerFragment"
+        android:label="@string/menu_SQLServer"
+        tools:layout="@layout/fragment_sqlerver" />
+    <fragment
+        android:id="@+id/nav_MySQL"
+        android:name="com.myapdb.myapdb.ui.mySQL.MySQLFragment"
+        android:label="@string/menu_MySQL"
+        tools:layout="@layout/fragment_mysql" />
+    <fragment
+        android:id="@+id/nav_PostgreSQL"
+        android:name="com.myapdb.myapdb.ui.postgreSQL.PostgreSQLFragment"
+        android:label="@string/menu_PostgreSQL"
+        tools:layout="@layout/fragment_postgresql" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.myapdb.myapdb.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.myapdb.myapdb.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_MONGODB"
+        android:name="com.myapdb.myapdb.ui.mongoDB.MongoFragment"
+        android:label="@string/menu_MONGODB"
+        tools:layout="@layout/fragment_mysql"/>
+    <fragment
+        android:id="@+id/nav_foro"
+        android:name="com.myapdb.myapdb.ui.foro.foroFragment"
+        android:label="@string/menu_foro"
+        tools:layout="@layout/fragment_foro"/>
+    <fragment
+        android:id="@+id/conceptListFragment"
+        android:name="com.myapdb.myapdb.ui.list.detail.ConceptListFragment"
+        android:label="fragment_concept_list"
+        tools:layout="@layout/fragment_concept_list" >
+        <action
+            android:id="@+id/action_conceptListFragment_to_conceptDetailFragment"
+            app:destination="@id/conceptDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/conceptDetailFragment"
+        android:name="com.myapdb.myapdb.ui.list.detail.ConceptDetailFragment"
+        android:label="Detalles"
+        tools:layout="@layout/fragment_concept_detail">
+
+        <argument android:name="title"
+            app:argType="string"
+            app:nullable="false"/>
+
+        <argument android:name="detail"
+            app:argType="string"
+            app:nullable="false"/>
+    </fragment>
+
+
+</navigation>
